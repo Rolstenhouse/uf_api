@@ -1,6 +1,12 @@
 # uf_api
 A list of documentation and example code to access the University of Florida's public (undocumented) API
 
+[Courses](#Courses)
+
+[Gym](#Gym)
+
+[Common Data] (#Common-Data) (admissions and whatnot)
+
 # Contributing
 Fork the repository and make a change. Submit a pull request and it will be promptly approved.
 
@@ -84,3 +90,6 @@ Live cameras placed in SouthWest Rec Center update images once every second. Old
 
 #### SWRC Basketball Courts 5 - 6
 [GET] `http://recsports.ufl.edu/cam/cam5.jpg`
+
+## Common-Data
+https://ir.aa.ufl.edu/reports/common-data-set/
