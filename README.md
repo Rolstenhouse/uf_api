@@ -1,11 +1,11 @@
 # uf_api
 A list of documentation and example code to access the University of Florida's public (undocumented) API
 
-[Courses](#Courses)
+[Courses](#courses)
 
-[Gym](#Gym)
+[Gym](#gym)
 
-[Common Data] (#Common-Data) (admissions and whatnot)
+[Common Data](#common-data) (admissions and whatnot)
 
 # Contributing
 Fork the repository and make a change. Submit a pull request and it will be promptly approved.
