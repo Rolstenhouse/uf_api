@@ -1,0 +1,5 @@
+secrets.py
+*.pyc
+environment/
+uf_auth/*.png
+*.log
