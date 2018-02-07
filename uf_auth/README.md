@@ -8,7 +8,7 @@ Execute the following instructions in the directory of this folder
 
 `pip install selenium `
 
-``` echo  echo "login = {'USERNAME': your_gatorlink_username, 'PASSWORD': your_gatorlink_password }" >> secrets.py ```
+``` echo "login = {'USERNAME': your_gatorlink_username, 'PASSWORD': your_gatorlink_password }" >> secrets.py ```
 
 ### For Windows
 
