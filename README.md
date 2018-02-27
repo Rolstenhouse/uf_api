@@ -35,7 +35,7 @@ https://one.ufl.edu/apix/soc/schedule/?category=RES&course-code=&course-title=&c
 Appended to the BaseURL as `parameter=value1&parameter2=value2` ...
 
 #### Semester/Term (Required)
-Set which term you're interested in finding courses for i.e Spring 2018 
+Set which term to find courses i.e Spring 2018 
 
 ```Term=20181```
 
@@ -74,7 +74,7 @@ The JSON response from the API includes the last row and total number of rows as
 
 #### COURSE CODE
 `course-code=eel3135`
-This parameter lets you pass the course code as a parameter you're interested in finding.
+This parameter lets you pass the course code as a parameter
 
 #### COURSE TITLE
 
@@ -93,7 +93,7 @@ If you want to check days you must pass [boolean] `days=(false)`
 #### eep, cred-srch, credits
 
 #### Credits
-Specify the number of credits 
+Specify the number of credits for the course
 `credits=[number]`
 
 #### Gen-Ed Requirements
@@ -111,9 +111,12 @@ ge-s:
 ```
 
 #### Instructor
+To be explored
 
 #### Open seats
-`no-open-seats=false` This could be used to check whether a course has become available?
+`no-open-seats=false`
+
+To be explored
 
 ## Gym
 
@@ -153,11 +156,13 @@ To be explored
 ``` https://lists.ufl.edu/cgi-bin/wa?RSS&L=UF-ALERT-GAINESVILLE&v=2.0 ```
 
 Returns XML element. Currently uses RSS
+
 To be explored
 
 ## UF Crime Log
 ```http://www.police.ufl.edu/wp-content/asp/crimelog/default2.asp```
 No API but could be super easy to scrape
+
 To be explored
 
 ## Voting Data
