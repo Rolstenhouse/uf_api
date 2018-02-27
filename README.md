@@ -7,8 +7,12 @@ A list of documentation and example code to access the University of Florida's p
 
 [Common Data](#common-data) (admissions and whatnot)
 
-# Contributing
+[Gators Football Schedule](#gators-football-schedule)
+
+# Contributing/Issues
 Fork the repository and make a change. Submit a pull request and it will be promptly approved.
+
+If you don't want to do that, feel free to open an issue.
 
 ## Courses
 This documents some of the API calls that can be made to get UF's course information
@@ -68,6 +72,49 @@ The JSON response from the API includes the last row and total number of rows as
 ]
 ```
 
+#### COURSE CODE
+`course-code=eel3135`
+This parameter lets you pass the course code as a parameter you're interested in finding.
+
+#### COURSE TITLE
+
+#### Day of the week
+List of true false, depending on availability
+```
+day-m: Monday
+day-t: Tuesday
+day-w: Wednesday
+day-r: Thursday
+day-f: Friday
+day-s: Saturday/Sunday
+```
+If you want to check days you must pass [boolean] `days=(false)`
+
+#### eep, cred-srch, credits
+
+#### Credits
+Specify the number of credits 
+`credits=[number]`
+
+#### Gen-Ed Requirements
+List of possible gen-ed requirements.
+Must pass `ge`
+```
+ge-b: ... To do ...
+ge-c:
+ge-d:
+ge-h:
+ge-m:
+ge-n:
+ge-p:
+ge-s:
+```
+
+#### Instructor
+
+#### Open seats
+`no-open-seats=false` This could be used to check whether a course has become available?
+
 ## Gym
 
 #### Live Cameras at SWRC and Student Rec
@@ -92,4 +139,26 @@ Live cameras placed in SouthWest Rec Center update images once every second. Old
 [GET] `http://recsports.ufl.edu/cam/cam5.jpg`
 
 ## Common-Data
+
 https://ir.aa.ufl.edu/reports/common-data-set/
+
+These are all pdfs which contain demographic information on UF's student body
+
+## UF Calendar Events
+```https://ufl.lwcal.com/live/calendar/view/week?user_tz=America%2FDetroit&syntax=%3Cwidget%20type%3D%22events_calendar%22%3E%3Carg%20id%3D%22modular%22%3Etrue%3C%2Farg%3E%3Carg%20id%3D%22default_view%22%3Eweek%3C%2Farg%3E%3Carg%20id%3D%22month_view_day_limit%22%3E3%3C%2Farg%3E%3Carg%20id%3D%22show_sidebar%22%3Efalse%3C%2Farg%3E%3Carg%20id%3D%22mini_cal_heat_map%22%3Etrue%3C%2Farg%3E%3Carg%20id%3D%22thumb_width%22%3E160%3C%2Farg%3E%3Carg%20id%3D%22thumb_height%22%3E160%3C%2Farg%3E%3Carg%20id%3D%22show_groups%22%3Etrue%3C%2Farg%3E%3Carg%20id%3D%22show_tags%22%3Etrue%3C%2Farg%3E%3Carg%20id%3D%22development%22%3Etrue%3C%2Farg%3E%3C%2Fwidget%3E```
+
+To be explored
+
+## UF Alerts
+``` https://lists.ufl.edu/cgi-bin/wa?RSS&L=UF-ALERT-GAINESVILLE&v=2.0 ```
+
+Returns XML element. Currently uses RSS
+To be explored
+
+## UF Crime Log
+```http://www.police.ufl.edu/wp-content/asp/crimelog/default2.asp```
+No API but could be super easy to scrape
+To be explored
+
+## Voting Data
+To be explored
