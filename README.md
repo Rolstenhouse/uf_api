@@ -9,8 +9,6 @@ A list of documentation and example code to access the University of Florida's p
 
 [Gators Football Schedule](#gators-football-schedule)
 
-[Campus Map Data](#campus-map-data)
-
 # Contributing/Issues
 Fork the repository and make a change. Submit a pull request and it will be promptly approved.
 
@@ -169,70 +167,3 @@ To be explored
 
 ## Voting Data
 To be explored
-
-## Campus Map Data
-Location and metadata about places on campus that may be useful for creating a map app.
-
-### Base URL
-```https://campusmap.ufl.edu/library/cmapjson/[resource]```
-
-For example, to get the JSON array of all bus stops: https://campusmap.ufl.edu/library/cmapjson/bus_stops.json
-
-#### Resource Values
-- Buildings (No LAT/LON values): geo_buildings.json
-- Buildings (Contains LAT/LON values): search.json
-
-- Sports Fields: sport_fields.json
-- Urban Parks: urban_parks.json
-- Natural Areas: natural_areas.json
-- Construction: construction.json
-
-- Accessible Entrances: ada_entrance.json
-- Other Entrances: other_entrances.json
-- ADA Parking: ada_parking.json
-- ADA Routes: ada_paths.json
-- Bus Stops: bus_stops.json
-
-- SNAP Locaions: snap.json
-- AEDs: aed.json
-- Blue Phones: blp.json
-- Outdoor Speakers: spkrs.json
-
-- Walk-up Computers: computerlabs.json
-- Walk-up Printers: printers.json
-- Videoconferencing: video.json
-- Wireless Coverage: wireless.json
-
-- Dining: dining.json
-
-- Historic District: historic_district.json
-- Registered Locations: historic_register.json
-
-- Housing: housing.json
-
-- Libraries: library.json
-- Study Rooms: study.json
-- Open Study Areas: study_open.json
-
-- Decaled Parking: parking_lots.json
-- ADA Parking: ada_parking.json
-- Carpool Parking: carpool.json
-- Metered Parking: meters.json
-- Scooter/Motorcycle Zone: scooters.json
-- Zip Cars: zip_car.json
-- EV Charging: ev_charging.json
-
-- Places of Interest: poi.json
-
-- Health & Wellness Services: health.json
-- Locatation Rooms: lactation.json
-- Recreation & Fitness: recfit.json
-
-- Student ServicesL student.json
-
-#### Linking to the Map
-```
-You can link directly to a building or other point of reference by following the example URL: http://campusmap.ufl.edu/#/index/0001/17 
-
-The first parameter (a four digit code) should be the building number or the object ID to center the map on. The second parameter (a two digit number) should be the desired zoom level. If no zoom level is given the default will be 17.
-```
