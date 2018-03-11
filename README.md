@@ -23,6 +23,7 @@ Fork the repository and make a change. Submit a pull request and it will be prom
 If you don't want to do that, feel free to open an issue.
 
 # Courses
+## CURRENTLY UNVERIFIED (UF is in the process of updating their API)
 This documents some of the API calls that can be made to get UF's course information
 
 #### BaseURL
