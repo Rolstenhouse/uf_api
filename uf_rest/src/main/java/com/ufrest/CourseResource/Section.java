@@ -9,6 +9,24 @@ public class Section {
     private String acadCareer = "";
     private String display = "";
     private int credits = 0;
+    private int credits_min = 0;
+    private int credits_max = 0;
+    private String note = "";
+    private String dnote = "";
+    private ArrayList<String> genEd = new ArrayList<>();
+    private String sectWeb = "";
+    private String rotateTitle = "";
+    private int deptCode = 0;
+    private String deptName = "";
+    private int courseFee = 0;
+    private String lateFlag = "";
+    private String EEP = "";
+    private String LMS = "";
+    private ArrayList<Instructor> instructors = new ArrayList<>();
+    private ArrayList<MeetTime> meetTimes = new ArrayList<>();
+    private String addEligible = "";
+    private String grWriting = "";
+    private String finalExam = "";
 
     public String getNumber() {
         return number;
@@ -202,22 +220,4 @@ public class Section {
         this.finalExam = finalExam;
     }
 
-    private int credits_min = 0;
-    private int credits_max = 0;
-    private String note = "";
-    private String dnote = "";
-    private ArrayList<String> genEd = new ArrayList<>();
-    private String sectWeb = "";
-    private String rotateTitle = "";
-    private int deptCode = 0;
-    private String deptName = "";
-    private int courseFee = 0;
-    private String lateFlag = "";
-    private String EEP = "";
-    private String LMS = "";
-    private ArrayList<Instructor> instructors = new ArrayList<>();
-    private ArrayList<MeetTime> meetTimes = new ArrayList<>();
-    private String addEligible = "";
-    private String grWriting = "";
-    private String finalExam = "";
 }
