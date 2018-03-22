@@ -23,11 +23,15 @@ Fork the repository and make a change. Submit a pull request and it will be prom
 If you don't want to do that, feel free to open an issue.
 
 # Courses
-## CURRENTLY UNVERIFIED (UF is in the process of updating their API)
-This documents some of the API calls that can be made to get UF's course information
+This documents some of the API calls that can be made to get UF's course information.
+
+** This API is currently changing at UF ** 
 
 #### BaseURL
 [GET] `https://one.ufl.edu/apix/soc/schedule/[parameters]`
+
+or if summer
+`https://one.ufl.edu/apix/soc-summer/schedule/[parameters]`
 
 `term` and `category` are required. `last-row` is highly suggested
 
@@ -44,30 +48,41 @@ https://one.ufl.edu/apix/soc/schedule/?category=RES&course-code=&course-title=&c
 Appended to the BaseURL as `parameter=value1&parameter2=value2` ...
 
 #### Semester/Term (Required)
-Set which term to find courses i.e Spring 2018 
+Set which term to find courses i.e Fall 2018 
 
-```Term=20181```
+```Term=2188```
 
-Variable = [Year][Semester number]
+Variable = [Year (with second 0 removed)][Semester number][optional Summer Semester]
 ```
 Spring: 1
 Summer: 5
 Fall: 8
 ```
 
+Spring 2018 : 20181
+Summer 2018 : 20185
+Summer A 2018 : 20185A
+Fall 2018 : 2188
+
+The base URL for summer is changed. To find courses for semester A, append A.
+The same holds for semester B and C
+
 #### Program/Category (Required)
 Type of program course
-```Category=RES```
+```Category=CWSP```
 
 ```
-RES: Campus/Web/Special Program (Regular)
+RES: Campus/Web/Special Program (Regular) (For Summer 2018 and before)
+CWSP: Campus/Web/Special Program (Regular) (Fall 2018 and beyond)
 UFO: UF online program
 IA: Innovation Academy
 HUR: USVI and Puerto Rico
 ```
 
 #### Number of Results (Required)
-This API limits the number of returned courses to 50. In order to get results 51-100 you must set `last-row=50`.
+This API limits the number of returned courses to 50. In order to get results 51-100 you must set `last-control-number=50`.
+
+The API is changing. it could use `last-control-number` or `last-row`.
 
 The JSON response from the API includes the last row and total number of rows as of the results as 
 
