@@ -4,7 +4,9 @@
 
 Execute the following instructions in the directory of this folder
 
-`brew install chromedriver `
+`brew tap homebrew/cask`
+
+`brew cask install chromedriver `
 
 `pip install selenium `
 
