@@ -8,7 +8,7 @@ Execute the following instructions in the directory of this folder
 
 `brew cask install chromedriver `
 
-`pip install selenium `
+`pip install selenium ` or (`pip3 install selenium` if using python3)
 
 ``` echo "login = {'USERNAME': your_gatorlink_username, 'PASSWORD': your_gatorlink_password }" >> secrets.py ```
 
