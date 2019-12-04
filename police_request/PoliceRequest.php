@@ -85,7 +85,7 @@
     //$policeRequest = new PoliceRequest();
 
     /*Processing*/
-    //$html = $policeRequest->getHtml($date, $searchType, $page);
+    //$html = $policeRequest->getHtml($searchField, $searchType, $page);
     //$maxPage = $policeRequest->getMaxPage($html);
     //$rows = $policeRequest->getRows($html);
 
