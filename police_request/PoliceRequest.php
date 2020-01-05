@@ -1,9 +1,10 @@
 <?php
     
     /**
-     * Example code (commented) at the bottom of this file.
-     * If you have any problems, open an issue on GitHub or
-     * email me at cameron.white@ufl.edu
+     * Example code (commented) in PliceRequestExamples.php
+     * If you have any problems, open an issue on GitHub,
+     * email me at cameron.white@ufl.edu, or Message me on
+     * GitHub at github.com/CameronWhiteCS
      **/
 
     class PoliceRequest {
@@ -74,28 +75,5 @@
             return $maxPages;
         }
     }
-
-    /*Example code! Yay!*/
-
-    /*Inputs*/
-    //$searchField = "12/2/2019"; //Dates MUST be formmated in the American MM/DD/YY format
-    //$searchType = PoliceRequest::SEARCH_TYPES[0]; //Default "All" option. If in doubt, don't change this.
-    //$page = 0; //First page = 0, not 1
-
-    //$policeRequest = new PoliceRequest();
-
-    /*Processing*/
-    //$html = $policeRequest->getHtml($searchField, $searchType, $page);
-    //$maxPage = $policeRequest->getMaxPage($html);
-    //$rows = $policeRequest->getRows($html);
-
-    /*Displaying*/
-
-    //echo("Max page: " . $maxPage);
-
-    //foreach($rows as $row){
-    //    var_dump($row);
-    //    echo("<br><br>");
-    //}
 
 ?>
