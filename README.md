@@ -185,7 +185,8 @@ To be explored
 
 # UF Crime Log
 ```http://www.police.ufl.edu/wp-content/asp/crimelog/default2.asp```
-No API but could be super easy to scrape
+Though UF doesn't offer an API for its crime log, you can scrape data from the page using the PoliceRequest API files in the src folder of this repository. Note, however, that the layout of the page 
+could change at any time, rendering implementations of the PoliceRequest API useless. PHP is the only language currently supported. 
 
 To be explored
 
