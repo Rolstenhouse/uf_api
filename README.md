@@ -148,22 +148,28 @@ To be explored
 Live cameras placed in SouthWest Rec Center update images once every second. Old images are replaced.
 
 #### SRFC (Student) Weight Room
-[GET] `http://recsports.ufl.edu/cam/cam6.jpg`
+[GET] `http://recsports.ufl.edu/cam/cam8.jpg`
+
+#### SRFC (Student) Cardio
+[GET] `http://recsports.ufl.edu/cam/cam7.jpg`
 
 #### SWRC (Southwest) Weight Room 1
-[GET] `http://recsports.ufl.edu/cam/cam1.jpg`
-
-#### SWRC Weight Room 2
-[GET] `http://recsports.ufl.edu/cam/cam3.jpg`
-
-#### SWRC Cardio
 [GET] `http://recsports.ufl.edu/cam/cam4.jpg`
 
-#### SWRC Basketball Courts 1 - 4
+#### SWRC Weight Room 2
+[GET] `http://recsports.ufl.edu/cam/cam1.jpg`
+
+#### SWRC Cardio
+[GET] `http://recsports.ufl.edu/cam/cam5.jpg`
+
+#### SWRC Basketball Courts 1 - 2
+[GET] `http://recsports.ufl.edu/cam/cam3.jpg`
+
+#### SWRC Basketball Courts 3 - 4
 [GET] `http://recsports.ufl.edu/cam/cam2.jpg`
 
 #### SWRC Basketball Courts 5 - 6
-[GET] `http://recsports.ufl.edu/cam/cam5.jpg`
+[GET] `http://recsports.ufl.edu/cam/cam6.jpg`
 
 # Common-Data
 
